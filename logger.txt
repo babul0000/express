@@ -94,3 +94,19 @@ Method : GET | IRL : /api/v1/users | Time: 1795275802228
 Method : GET | IRL : /api/v1/users | Time: 1795277047628
 
 Method : GET | IRL : /api/v1/users | Time: 1795277259115
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795283855339
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795283865842
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795283873776
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795283894680
+
+Method : POST | IRL : /api/v1/users | Time: 1795283914635
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795283931847
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795284002350
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795284468457
