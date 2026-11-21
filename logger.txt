@@ -1,0 +1,96 @@
+Method : GET | IRL : /api/v1/users | Time: 1795194691726
+Method : GET | IRL : / | Time: 1795194766869
+
+Method : GET | IRL : / | Time: 1795264474119
+
+Method : GET | IRL : /favicon.ico | Time: 1795264474696
+
+Method : GET | IRL : /api/v1/users | Time: 1795264480009
+
+Method : GET | IRL : /api/v1/profile | Time: 1795264487885
+
+Method : GET | IRL : /api/v1/profile | Time: 1795264534404
+
+Method : GET | IRL : /api/v1/profile | Time: 1795264646291
+
+Method : GET | IRL : /api/v1/users | Time: 1795264659410
+
+Method : GET | IRL : /api/v1/users | Time: 1795264732792
+
+Method : GET | IRL : /api/v1/users | Time: 1795265092269
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795265202176
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795265232710
+
+Method : GET | IRL : /api/v1/users | Time: 1795265271083
+
+Method : GET | IRL : /api/v1/users | Time: 1795265364546
+
+Method : GET | IRL : /api/v1/users | Time: 1795265604461
+
+Method : GET | IRL : /api/v1/users | Time: 1795265640518
+
+Method : GET | IRL : /api/v1/users | Time: 1795267363063
+
+Method : GET | IRL : /api/v1/users | Time: 1795268040542
+
+Method : GET | IRL : /api/v1/users | Time: 1795268096135
+
+Method : GET | IRL : /api/v1/users | Time: 1795268397263
+
+Method : GET | IRL : /api/v1/users | Time: 1795268651213
+
+Method : GET | IRL : /api/v1/users | Time: 1795268687595
+
+Method : GET | IRL : /api/v1/users | Time: 1795269598794
+
+Method : GET | IRL : /api/v1/users | Time: 1795269838717
+
+Method : GET | IRL : /api/v1/users | Time: 1795269879396
+
+Method : GET | IRL : /api/v1/users | Time: 1795271461004
+
+Method : POST | IRL : /api/v1/users | Time: 1795271791554
+
+Method : POST | IRL : /api/v1/users | Time: 1795271827381
+
+Method : POST | IRL : /api/v1/users | Time: 1795271871016
+
+Method : POST | IRL : /api/v1/users | Time: 1795272188052
+
+Method : POST | IRL : /api/v1/users | Time: 1795272197023
+
+Method : POST | IRL : /api/v1/users | Time: 1795272341607
+
+Method : POST | IRL : /api/v1/users | Time: 1795272424389
+
+Method : POST | IRL : /api/v1/users | Time: 1795272549547
+
+Method : POST | IRL : /api/v1/users | Time: 1795272704238
+
+Method : GET | IRL : /api/v1/users | Time: 1795272784839
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795272806671
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795272884090
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795272899947
+
+Method : POST | IRL : /api/v1/users | Time: 1795272931255
+
+Method : POST | IRL : /api/v1/users | Time: 1795272949487
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795272962658
+
+Method : GET | IRL : /api/v1/users | Time: 1795272997214
+
+Method : GET | IRL : /api/v1/users | Time: 1795275645383
+
+Method : POST | IRL : /api/v1/auth/login | Time: 1795275797011
+
+Method : GET | IRL : /api/v1/users | Time: 1795275802228
+
+Method : GET | IRL : /api/v1/users | Time: 1795277047628
+
+Method : GET | IRL : /api/v1/users | Time: 1795277259115
