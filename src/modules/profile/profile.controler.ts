@@ -14,7 +14,7 @@ res.status(200).json({
 }  catch (error: any) {
     res.status(500).json({
       success: false,
-      message: error?.message || "Failed to delete user",
+      message: error?.message || "Failed to create profile",
       error: error,
     });
   }

@@ -2,7 +2,6 @@ import bcrypt from "bcryptjs";
 import { pool } from "../../db";
 import jwt, { type JwtPayload } from "jsonwebtoken";
 import config from "../../config";
-import type { Response } from "express";
 
 
 const loginUserIntoDB = async (payload : {email : string; password: string}) => {
@@ -16,17 +15,17 @@ const loginUserIntoDB = async (payload : {email : string; password: string}) => 
         `,[email]);
         // console.log(user.rows[0]);
 if (user.rowCount === 0) {
-    throw new Error("invalid credintials")
+    throw new Error("invalid credentials")
 }
 
 const matchPassword = await bcrypt.compare(password, user.rows[0].password)
 if (!matchPassword) {
-    throw new Error("invalid credintials")
+    throw new Error("invalid credentials")
 }
 console.log(user.rows[0].is_active);
 
 if (!user.rows[0].is_active) {
-    throw new Error("user is blocklod")
+    throw new Error("user is blocked")
 }
 const jwtPayload = {
 id : user.rows[0].id,
@@ -48,11 +47,7 @@ return {accessToken, refreshToken, user : user.rows[0]};
 
 const genaretAccessToken = async(token: string) => {
 if (!token) {
-return res.status(401).json({
-      success: false,
-      message: "unauthorized access",
-
-    });
+    throw new Error("unauthorized access")
 }
 const decode = jwt.verify(token  as string, config.refresh_secret) as JwtPayload
 console.log(decode);

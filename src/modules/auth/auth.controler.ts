@@ -22,7 +22,7 @@ res.cookie("refreshToken", refreshToken, {
 sendResponse(res,{
     statusCode: 200,
     success: true,
-      message: "user login suceccssfuly",
+      message: "user login successfully",
       data: result,
 } );
 
@@ -31,7 +31,7 @@ sendResponse(res,{
     sendResponse(res,{
     statusCode: 500,
     success: false,
-      message: error?.message || "Failed to delete user",
+      message: error?.message || "Failed to login",
       error: error,
 } );
   }
@@ -47,14 +47,14 @@ try {
 
 res.status(200).json({
       success: true,
-      message: "acces token genareted",
+      message: "access token generated",
       data: result,
     });
 
 } catch (error: any) {
     res.status(500).json({
       success: false,
-      message: error?.message || "Failed to delete user",
+      message: error?.message || "Failed to generate access token",
       error: error,
     });
   }

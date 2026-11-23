@@ -33,13 +33,13 @@ if (user.rowCount === 0) {
     })
 }
 if (!user.rows[0].is_active) {
-      return res.status(404).json({
+      return res.status(403).json({
       success: false,
-      message: "forbidden"
+      message: "forbidden: user is blocked"
     })
 }
 if(roles.length && !roles.includes(user.rows[0].role)){
-return res.status(401).json({
+return res.status(403).json({
       success: false,
       message: "unauthorized access"
     })

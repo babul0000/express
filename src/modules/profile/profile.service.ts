@@ -5,7 +5,7 @@ const createProfileIntoDB = async (payload: any) => {
     const {user_id, bio, address, phone, gender} = payload;
     const user = await pool.query(`SELECT * FROM users WHERE id = $1`, [user_id]);
      if (user.rowCount === 0) {
-        throw new Error("user not exixts in the database")
+        throw new Error("user does not exist in the database")
      }
 
 const result = await pool.query(

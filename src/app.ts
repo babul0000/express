@@ -23,7 +23,7 @@ app.use(logger)
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     success: true,
-    message: "this is route route",
+    message: "this is root route",
     author: "programing hero",
   });
 });
